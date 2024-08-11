@@ -56,8 +56,11 @@ def main():
         print(f"\npuntos jugador: {cont_j}")
         print(f"puntos maquina: {cont_m}")
         print(f"\nGanador ronda: {ganador}")
-    
+        
     os.system('cls')
+    print(f"Movimiento jugador: {diccionario_movimientos[mov]}")
+    print(f"Movimiento maquina: {diccionario_movimientos[mov_m]}")
+
     print(f"\npuntos jugador: {cont_j}")
     print(f"puntos maquina: {cont_m}")
 
